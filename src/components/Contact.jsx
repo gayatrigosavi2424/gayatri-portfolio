@@ -1,6 +1,8 @@
 // src/components/Contact.jsx (open Gmail compose instead of Outlook form submit)
 import React, { useState } from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import resumePDF from "../assets/Gayatri_G Resume.pdf";
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -47,9 +49,13 @@ const Contact = () => {
       </div>
 
       <div className="mt-6">
-        <a href="/Gayatri-Gosavi-Resume.pdf" download className="inline-block px-6 py-2 bg-yellow-500 text-black font-semibold rounded hover:bg-yellow-400 transition">
-          Download Resume
+        <a href={resumePDF}
+        download="Gayatri_G_Resume.pdf"
+        className="inline-block px-6 py-2 bg-yellow-500 text-black font-semibold rounded hover:bg-yellow-400 transition"
+        >
+        Download Resume
         </a>
+
       </div>
     </section>
   );
