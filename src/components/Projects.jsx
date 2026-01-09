@@ -2,7 +2,7 @@
 import React from 'react';
 import ecommerceImg from '../assets/ecommerce.png'
 import marmaPt from '../assets/marma-points.jpg'
-import english from '../assets/pixel-classroom.png'
+import english from '../assets/speakAndImprove.png'
 import jaldarpan from '../assets/jaldarpan.png'
 
 const projects = [
@@ -28,7 +28,7 @@ const projects = [
     live: 'https://pixelate-classroom.vercel.app/'
   },
   {
-    title: 'JALDARPAN (Hackathon Project)',
+    title: 'JALDARPAN (Smart India Hackathon 2024 Project)',
     desc: 'Real-time groundwater data platform with dynamic charts and sensor integration.',
     img: jaldarpan,
     code: 'https://github.com/gayatri/jaldarpan',
