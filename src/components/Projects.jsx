@@ -25,7 +25,7 @@ const projects = [
     desc: 'English speaking app to improve english and grammar skills using React and OpenAI API.',
     img: english,
     code: english,
-    live: 'https://pixelate-classroom.vercel.app/'
+    live: 'https://fluentease-english-learning.vercel.app/'
   },
   {
     title: 'JALDARPAN (Smart India Hackathon 2024 Project)',
