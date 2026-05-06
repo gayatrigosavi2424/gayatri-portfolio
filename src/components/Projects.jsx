@@ -7,6 +7,13 @@ import jaldarpan from '../assets/jaldarpan.png'
 
 const projects = [
   {
+    title: 'Post-Quantum Cryptography Secure Data Transfer',
+    desc: 'Post-Quantum Cryptography secure data transfer system for federated learning.',
+    img: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=2070&auto=format&fit=crop',
+    code: 'https://github.com/gayatrigosavi2424/pqc-secure-transfer',
+    live: 'https://github.com/gayatrigosavi2424/pqc-secure-transfer'
+  },
+  {
     title: 'E-Commerce Website',
     desc: 'Built with React.js + Vite. Features include product browsing, cart management, and payment simulation.',
     img: ecommerceImg,
